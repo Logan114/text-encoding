@@ -1,5 +1,5 @@
 
-print("Do you have an encrypted text in a txt file?")
+print("Do you have an encrypted text in a txt file? Y/N")
 key = input().strip().lower()
 if key == 'n':
     encoded = input("Please paste the encrypted text\n")
